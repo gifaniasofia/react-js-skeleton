@@ -1,13 +1,94 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+p {
+	margin: 0px;
+}
+
+@font-face {
+	font-family: CabinBoldItalic;
+	font-style: italic;
+	src: local('CabinBoldItalic'), url('./assets/fonts/CabinBoldItalic.ttf') format('truetype');
+	font-display: swap;
+}
+@font-face {
+	font-family: InterBlack;
+	font-style: normal;
+	src: local('InterBlack'), url('./assets/fonts/InterBlack.ttf') format('truetype');
+	font-display: swap;
+}
+@font-face {
+	font-family: InterBold;
+	font-style: normal;
+	src: local('InterBold'), url('./assets/fonts/InterBold.ttf') format('truetype');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: InterExtraBold;
+	font-style: normal;
+	src: local('InterExtraBold'), url('./assets/fonts/InterExtraBold.ttf') format('truetype');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: InterExtraLight;
+	font-style: normal;
+	src: local('InterExtraLight'), url('./assets/fonts/InterExtraLight.ttf') format('truetype');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: InterLight;
+	font-style: normal;
+	src: local('InterLight'), url('./assets/fonts/InterLight.ttf') format('truetype');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: InterMedium;
+	font-style: normal;
+	src: local('InterMedium'), url('./assets/fonts/InterMedium.ttf') format('truetype');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: InterRegular;
+	font-style: normal;
+	src: local('InterRegular'), url('./assets/fonts/InterRegular.ttf') format('truetype');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: InterSemiBold;
+	font-style: normal;
+	src: local('InterSemiBold'), url('./assets/fonts/InterSemiBold.ttf') format('truetype');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: InterThin;
+	font-style: normal;
+	src: local('InterThin'), url('./assets/fonts/InterThin.ttf') format('truetype');
+	font-display: swap;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+		monospace;
 }
